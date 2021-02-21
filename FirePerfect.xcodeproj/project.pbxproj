@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80E523A04C5667E95EF15C0C /* Pods_FirePerfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A43FDB64A18309B95B1ADD /* Pods_FirePerfect.framework */; };
+		F3AE23CD25E229AC00BC69E0 /* StorageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE23CC25E229AC00BC69E0 /* StorageStore.swift */; };
+		F3AE23E125E2853100BC69E0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE23E025E2853100BC69E0 /* ImagePicker.swift */; };
 		F3F763C025DFDC600022D720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763BF25DFDC600022D720 /* AppDelegate.swift */; };
 		F3F763C225DFDC600022D720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763C125DFDC600022D720 /* SceneDelegate.swift */; };
 		F3F763C425DFDC600022D720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763C325DFDC600022D720 /* ContentView.swift */; };
@@ -14,9 +17,25 @@
 		F3F763C925DFDC640022D720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F763C825DFDC640022D720 /* Assets.xcassets */; };
 		F3F763CC25DFDC640022D720 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F763CB25DFDC640022D720 /* Preview Assets.xcassets */; };
 		F3F763CF25DFDC640022D720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F763CD25DFDC640022D720 /* LaunchScreen.storyboard */; };
+		F3F763EE25DFDF0E0022D720 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763ED25DFDF0E0022D720 /* SessionStore.swift */; };
+		F3F763F225DFDF200022D720 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763F125DFDF200022D720 /* StarterScreen.swift */; };
+		F3F763F525DFDF340022D720 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763F425DFDF340022D720 /* HomeScreen.swift */; };
+		F3F763F825DFDF5F0022D720 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763F725DFDF5F0022D720 /* SignUpScreen.swift */; };
+		F3F763FB25DFDF6A0022D720 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763FA25DFDF6A0022D720 /* SignInScreen.swift */; };
+		F3F763FE25DFDF810022D720 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F763FD25DFDF810022D720 /* User.swift */; };
+		F3F7640225E050830022D720 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3F7640125E050830022D720 /* GoogleService-Info.plist */; };
+		F3F7641225E054540022D720 /* RealtimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7641125E054540022D720 /* RealtimeStore.swift */; };
+		F3F7641525E054710022D720 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7641425E054710022D720 /* Post.swift */; };
+		F3F7641825E054E30022D720 /* AddPostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7641725E054E30022D720 /* AddPostScreen.swift */; };
+		F3F7642D25E058680022D720 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F7642C25E058680022D720 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8E2AFA3901CA171045F367 /* Pods-FirePerfect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect.release.xcconfig"; path = "Target Support Files/Pods-FirePerfect/Pods-FirePerfect.release.xcconfig"; sourceTree = "<group>"; };
+		271BB71D5D2E0189039763AF /* Pods-FirePerfect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect.debug.xcconfig"; path = "Target Support Files/Pods-FirePerfect/Pods-FirePerfect.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A43FDB64A18309B95B1ADD /* Pods_FirePerfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirePerfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AE23CC25E229AC00BC69E0 /* StorageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageStore.swift; sourceTree = "<group>"; };
+		F3AE23E025E2853100BC69E0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F3F763BC25DFDC600022D720 /* FirePerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirePerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F763BF25DFDC600022D720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3F763C125DFDC600022D720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,17 @@
 		F3F763CB25DFDC640022D720 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3F763CE25DFDC640022D720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3F763D025DFDC640022D720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F763ED25DFDF0E0022D720 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		F3F763F125DFDF200022D720 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		F3F763F425DFDF340022D720 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F3F763F725DFDF5F0022D720 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		F3F763FA25DFDF6A0022D720 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		F3F763FD25DFDF810022D720 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3F7640125E050830022D720 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3F7641125E054540022D720 /* RealtimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeStore.swift; sourceTree = "<group>"; };
+		F3F7641425E054710022D720 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F3F7641725E054E30022D720 /* AddPostScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostScreen.swift; sourceTree = "<group>"; };
+		F3F7642C25E058680022D720 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E523A04C5667E95EF15C0C /* Pods_FirePerfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2186215538B459181C1A8CE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271BB71D5D2E0189039763AF /* Pods-FirePerfect.debug.xcconfig */,
+				0A8E2AFA3901CA171045F367 /* Pods-FirePerfect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A0C7AB52D8120043440E2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8A43FDB64A18309B95B1ADD /* Pods_FirePerfect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AE23DF25E2851800BC69E0 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				F3AE23E025E2853100BC69E0 /* ImagePicker.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		F3F763B325DFDC600022D720 = {
 			isa = PBXGroup;
 			children = (
 				F3F763BE25DFDC600022D720 /* FirePerfect */,
 				F3F763BD25DFDC600022D720 /* Products */,
+				2186215538B459181C1A8CE5 /* Pods */,
+				2A0C7AB52D8120043440E2E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +116,16 @@
 		F3F763BE25DFDC600022D720 /* FirePerfect */ = {
 			isa = PBXGroup;
 			children = (
+				F3AE23DF25E2851800BC69E0 /* helper */,
+				F3F7642625E057D40022D720 /* cells */,
+				F3F763EC25DFDEAE0022D720 /* network */,
+				F3F763EB25DFDEA30022D720 /* screens */,
+				F3F763EA25DFDE8D0022D720 /* models */,
+				F3F763D725DFDC6D0022D720 /* apputils */,
 				F3F763BF25DFDC600022D720 /* AppDelegate.swift */,
 				F3F763C125DFDC600022D720 /* SceneDelegate.swift */,
-				F3F763C325DFDC600022D720 /* ContentView.swift */,
-				F3F763C825DFDC640022D720 /* Assets.xcassets */,
-				F3F763CD25DFDC640022D720 /* LaunchScreen.storyboard */,
+				F3F7640125E050830022D720 /* GoogleService-Info.plist */,
 				F3F763D025DFDC640022D720 /* Info.plist */,
-				F3F763C525DFDC600022D720 /* FirePerfect.xcdatamodeld */,
 				F3F763CA25DFDC640022D720 /* Preview Content */,
 			);
 			path = FirePerfect;
@@ -78,6 +139,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F3F763D725DFDC6D0022D720 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				F3F763CD25DFDC640022D720 /* LaunchScreen.storyboard */,
+				F3F763C825DFDC640022D720 /* Assets.xcassets */,
+				F3F763C325DFDC600022D720 /* ContentView.swift */,
+				F3F763C525DFDC600022D720 /* FirePerfect.xcdatamodeld */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		F3F763EA25DFDE8D0022D720 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F3F763FD25DFDF810022D720 /* User.swift */,
+				F3F7641425E054710022D720 /* Post.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F3F763EB25DFDEA30022D720 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				F3F763F125DFDF200022D720 /* StarterScreen.swift */,
+				F3F763F425DFDF340022D720 /* HomeScreen.swift */,
+				F3F763F725DFDF5F0022D720 /* SignUpScreen.swift */,
+				F3F763FA25DFDF6A0022D720 /* SignInScreen.swift */,
+				F3F7641725E054E30022D720 /* AddPostScreen.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		F3F763EC25DFDEAE0022D720 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F3F763ED25DFDF0E0022D720 /* SessionStore.swift */,
+				F3F7641125E054540022D720 /* RealtimeStore.swift */,
+				F3AE23CC25E229AC00BC69E0 /* StorageStore.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		F3F7642625E057D40022D720 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3F7642C25E058680022D720 /* PostCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F763D325DFDC640022D720 /* Build configuration list for PBXNativeTarget "FirePerfect" */;
 			buildPhases = (
+				E4E8D7349115B8AC4A46A027 /* [CP] Check Pods Manifest.lock */,
 				F3F763B825DFDC600022D720 /* Sources */,
 				F3F763B925DFDC600022D720 /* Frameworks */,
 				F3F763BA25DFDC600022D720 /* Resources */,
+				47DAD4B8082B7A92ED57EC5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F763CF25DFDC640022D720 /* LaunchScreen.storyboard in Resources */,
+				F3F7640225E050830022D720 /* GoogleService-Info.plist in Resources */,
 				F3F763CC25DFDC640022D720 /* Preview Assets.xcassets in Resources */,
 				F3F763C925DFDC640022D720 /* Assets.xcassets in Resources */,
 			);
@@ -143,14 +257,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47DAD4B8082B7A92ED57EC5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E8D7349115B8AC4A46A027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirePerfect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3F763B825DFDC600022D720 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F7641825E054E30022D720 /* AddPostScreen.swift in Sources */,
 				F3F763C025DFDC600022D720 /* AppDelegate.swift in Sources */,
+				F3F763F225DFDF200022D720 /* StarterScreen.swift in Sources */,
+				F3F763FB25DFDF6A0022D720 /* SignInScreen.swift in Sources */,
+				F3F7641525E054710022D720 /* Post.swift in Sources */,
+				F3F763F525DFDF340022D720 /* HomeScreen.swift in Sources */,
+				F3F7641225E054540022D720 /* RealtimeStore.swift in Sources */,
+				F3F7642D25E058680022D720 /* PostCell.swift in Sources */,
+				F3F763F825DFDF5F0022D720 /* SignUpScreen.swift in Sources */,
+				F3F763EE25DFDF0E0022D720 /* SessionStore.swift in Sources */,
 				F3F763C225DFDC600022D720 /* SceneDelegate.swift in Sources */,
+				F3AE23CD25E229AC00BC69E0 /* StorageStore.swift in Sources */,
 				F3F763C425DFDC600022D720 /* ContentView.swift in Sources */,
+				F3AE23E125E2853100BC69E0 /* ImagePicker.swift in Sources */,
+				F3F763FE25DFDF810022D720 /* User.swift in Sources */,
 				F3F763C725DFDC600022D720 /* FirePerfect.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +455,7 @@
 		};
 		F3F763D425DFDC640022D720 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271BB71D5D2E0189039763AF /* Pods-FirePerfect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +477,7 @@
 		};
 		F3F763D525DFDC640022D720 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8E2AFA3901CA171045F367 /* Pods-FirePerfect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
